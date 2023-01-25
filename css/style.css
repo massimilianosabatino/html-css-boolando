@@ -7,6 +7,69 @@
     box-sizing: border-box;
 }
 
+
+
+/*
+*  Common
+*/
 body > * {
     font-family: 'Noto Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav > ul a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+
+
+/*
+*  Typo
+*/
+header ul a,
+footer ul a {
+    color: white;
+    font-size: 14px;
+}
+
+
+
+/*
+*  Header
+*/
+header {
+    background-color: #FF6900;
+    height: 70px;
+    padding: 17px 0;
+}
+
+header > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    flex-basis: 25%;
+    display: flex;
+}
+
+nav > .logo {
+    flex-basis: 50%;
+}
+
+.logo > img {
+    display: block;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.user-link {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: flex-end;
 }
