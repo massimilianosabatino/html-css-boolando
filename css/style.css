@@ -192,10 +192,13 @@ main {
     bottom: auto;
     width: 50px;
     height: 50px;
+    transition: all 0.3s ease-in-out;
 }
 
 .add-favorite:hover {
     color: #f00;
+    width: 55px;
+    height: 55px;
 }
 
 .box-image span {
