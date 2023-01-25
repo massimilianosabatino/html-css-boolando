@@ -47,6 +47,7 @@ h3 {
 
 .box-text h2 {
     font-size: 16px;
+    font-weight: 300;
 }
 
 .price {
@@ -62,6 +63,9 @@ h3 {
     text-decoration: line-through;
 }
 
+.sticker {
+    font-size: 18px;
+}
 
 /*
 *  Header
@@ -139,4 +143,41 @@ nav > .logo {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+
+
+/*
+*  Sticker
+*/
+.sticker {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
+.add-favorite {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.65em;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    bottom: auto;
+    width: 50px;
+    height: 50px;
+}
+.box-image span {
+    color: white;
+    padding: 2px 8px;
+}
+.discount {
+    background-color: #f00;
+}
+
+.eco-product {
+    background-color: #008000;
+    left: 60px;
 }
