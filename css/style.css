@@ -93,6 +93,8 @@ header {
     height: 70px;
     padding: 17px 0;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1;
     width: 100%;
 }
@@ -174,10 +176,20 @@ main {
 /*
 *  Sticker
 */
-.sticker {
+
+
+.sticker{
     position: absolute;
     bottom: 40px;
     left: 0;
+}
+
+.eco{
+    background-color: #008000;
+}
+
+.discount {
+    background-color: #f00;
 }
 
 .add-favorite {
@@ -204,15 +216,6 @@ main {
 .box-image span {
     color: white;
     padding: 2px 8px;
-}
-
-.discount {
-    background-color: #f00;
-}
-
-.eco-product {
-    background-color: #008000;
-    left: 60px;
 }
 
 
